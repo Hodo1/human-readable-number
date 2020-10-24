@@ -34,7 +34,7 @@ module.exports = function toReadable (number) {
     let hundredValue = Math.floor(number / 100);
     let hundredString;
         if(numbers[hundredValue]) {
-        hundredString = numbers[hundredValue] + "hundred";
+        hundredString = numbers[hundredValue] + " hundred ";
     }
     else	hundredString = '';
 
